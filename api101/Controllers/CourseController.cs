@@ -31,11 +31,11 @@ namespace api101.Controllers
 
         }
 
-        [HttpPost]
-        public IEnumerable<Course> GetCourses()
-        {
-            return courseService.GetCourses(configuration.GetConnectionString("conStr"));
-        }
+        //[HttpPost]
+        //public IEnumerable<Course> GetCourses()
+        //{
+        //    return courseService.GetCourses(configuration.GetConnectionString("conStr"));
+        //}
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
